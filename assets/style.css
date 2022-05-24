@@ -11,7 +11,7 @@ html {
   width: 100%;
   min-height: 100vh;
   overflow: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: #dd6502;;
 }
 
 .Home {
@@ -45,6 +45,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.geladon{  
+  min-width: 100%;
+  font-size: 25px;
 }
 
 @media (max-width: 350px) {
@@ -112,7 +116,7 @@ html {
 }
 
 .CartaoPaleta__infos > span {
-  color: darkviolet;
+  color: #dd6502;
 }
 
 .CartaoPaleta > img {
@@ -182,11 +186,17 @@ html {
 }
 
 .PesquisarPaleta > .PesquisarPaleta__container > button {
-  background-color: transparent;
+  background-color: #ffffff4d;
   border-radius: 3px;
-  border: 2px solid #9400d3;
-  color: #9400d3;
+  border: 2px solid #dd6502;
+  color: #dd6502;
   font-size: larger;
   font-weight: 700;
   height: 33px;
+}
+.PesquisarPaleta > .PesquisarPaleta__container > button:hover{
+  background-color: #dd6502;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
 }
