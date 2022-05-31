@@ -11,15 +11,15 @@ html {
   width: 100%;
   min-height: 100vh;
   overflow: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(26, 97, 145);
 }
 
 .Home {
   position: relative;
   background-image: radial-gradient(
     farthest-corner at 40px 40px,
-    #50c5ee 60%,
-    rgba(0, 212, 255, 0.5) 100%
+    #50e9ee 60%,
+    rgba(31, 100, 114, 0.5) 100%
   );
   min-height: calc(100vh - 60px);
   margin: 15px;
@@ -119,7 +119,7 @@ html {
 }
 
 .CartaoPaleta__infos > span {
-  color: darkviolet;
+  color: rgb(35, 34, 124);
 }
 
 .CartaoPaleta__infos > div > button {
@@ -216,8 +216,8 @@ html {
 .botao-padrao {
   background-color: transparent;
   border-radius: 3px;
-  border: 2px solid #9400d3;
-  color: #9400d3;
+  border: 2px solid rgb(35, 34, 124);
+  color: rgb(35, 34, 124);
   font-size: larger;
   font-weight: 700;
   height: 33px;
@@ -231,7 +231,7 @@ html {
 
 .botao-padrao:hover {
   color: #50c5ee;
-  background-color: #9400d3;
+  background-color: rgb(35, 34, 124);
 }
 
 .NovaPaleta__container {
