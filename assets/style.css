@@ -28,12 +28,15 @@ html {
   color: black;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
-
+.Home h2.elgeladon{
+  font-size: 25px;
+}
 .Home > h2 {
   display: flex;
   justify-content: space-around;
   color: rgb(0, 0, 0);
   margin-top: 2rem;
+  
 }
 
 .Home > .PesquisarPaleta {
@@ -297,7 +300,7 @@ textarea {
   margin-top: 7px;
   border: 1px solid #50c5ee;
   color: #50c5ee;
-  background-color: transparent;
+  /* background-color: transparent; */
   border-radius: 5px;
   cursor: pointer;
 }
